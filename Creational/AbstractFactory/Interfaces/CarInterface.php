@@ -1,5 +1,5 @@
 <?php
-namespace Creational\AbstractFactory;
+namespace Creational\AbstractFactory\Interfaces;
 
 interface CarInterface{
       public function calculatePrice();
