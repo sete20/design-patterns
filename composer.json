@@ -1,0 +1,22 @@
+{
+    "name": "administrator/design-patterns",
+    "description": "design-patterns php course",
+    "autoload": {
+        "psr-4": {
+            "Administrator\\DesignPatterns\\": "src/",
+            "Creational\\":"Creational"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdelrhman Abdullah Elmahdy",
+            "email": "abdelrhman@josequal.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.3"
+    }
+  
+    
+}
