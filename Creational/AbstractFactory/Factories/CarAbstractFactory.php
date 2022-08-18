@@ -1,6 +1,6 @@
 <?php
-namespace Creational\AbstractFactory;
-use Creational\AbstractFactory\BMWCar,Creational\AbstractFactory\BenzCar;
+namespace Creational\AbstractFactory\Factories;
+use Creational\AbstractFactory\Models\BMWCar,Creational\AbstractFactory\Models\BenzCar;
 class CarAbstractFactory {
 
       private $price,$tax = 2000;

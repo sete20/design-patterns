@@ -1,5 +1,5 @@
 <?php
-namespace Creational\AbstractFactory;
+namespace Creational\AbstractFactory\Models;
 use Creational\AbstractFactory\Interfaces\CarInterface;
 class BMWCar implements CarInterface{
       private $price;

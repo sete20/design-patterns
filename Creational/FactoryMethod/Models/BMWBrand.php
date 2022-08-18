@@ -1,5 +1,5 @@
 <?php
-namespace Creational\FactoryMethod\Controllers;
+namespace Creational\FactoryMethod\Models;
 
 use Creational\FactoryMethod\Interfaces\CarBrandInterface;
 

@@ -3,8 +3,8 @@ namespace Tests;
 
 use Creational\FactoryMethod\Factories\BENZBrandFactory;
 use Creational\FactoryMethod\Factories\BMWBrandFactory;
-use Creational\FactoryMethod\Controllers\BENZBrand;
-use Creational\FactoryMethod\Controllers\BMWBrand;
+use Creational\FactoryMethod\Models\BENZBrand;
+use Creational\FactoryMethod\Models\BMWBrand;
 use PHPUnit\Framework\TestCase;
 class FactoryMethodTest extends TestCase
 {
