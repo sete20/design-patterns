@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30aeb1e25f9c7415d45f21fd0aaba833",
+    "content-hash": "43ab416f5d98212737cd43d2058b7364",
     "packages": [
+        {
+            "name": "administrator/basic-auth-lib",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "Libs/BasicAuthLib",
+                "reference": "12ffbab8e5ac11bc54cd681d120156e1c666ea44"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicAuthLib\\": "BasicAuthLib"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Abdelrhman Abdullah Elmahdy",
+                    "email": "abdelrhman@josequal.com"
+                }
+            ],
+            "description": "test lib for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "administrator/token-auth-lib",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "Libs/TokenAuthLib",
+                "reference": "f47d40ddfe8a3fb819e2df5eed09a605bf80c96c"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TokenAuth\\": "TokenAuth"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Abdelrhman Abdullah Elmahdy",
+                    "email": "abdelrhman@josequal.com"
+                }
+            ],
+            "description": "test lib for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.4.1",
@@ -1705,7 +1755,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "administrator/basic-auth-lib": 20,
+        "administrator/token-auth-lib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

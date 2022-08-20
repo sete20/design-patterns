@@ -8,9 +8,12 @@ $baseDir = dirname($vendorDir);
 return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
+    'TokenAuth\\' => array($vendorDir . '/administrator/token-auth-lib/TokenAuth'),
+    'Structural\\' => array($baseDir . '/Structural'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src/Prophecy'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Creational\\' => array($baseDir . '/Creational'),
+    'BasicAuthLib\\' => array($vendorDir . '/administrator/basic-auth-lib/BasicAuthLib'),
     'Administrator\\DesignPatterns\\' => array($baseDir . '/src'),
 );

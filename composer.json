@@ -4,7 +4,9 @@
     "autoload": {
         "psr-4": {
             "Administrator\\DesignPatterns\\": "src/",
-            "Creational\\":"Creational"
+            "Creational\\":"Creational",
+            "Structural\\":"Structural"
+
 
         }
     },
@@ -15,8 +17,22 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^8.3"
-    }
+        "phpunit/phpunit": "^8.3",
+        "administrator/basic-auth-lib": "*@dev",
+        "administrator/token-auth-lib": "*@dev"
+    },
+    "repositories":
+        [
+        { 
+        "type":"path",
+        "url":"Libs/BasicAuthLib"
+        },
+        { 
+        "type":"path",
+        "url":"Libs/TokenAuthLib"
+        }
+    ]
+    
   
     
 }

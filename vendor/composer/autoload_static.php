@@ -19,6 +19,14 @@ class ComposerStaticInit6eb2181b93c3147ca712c6ce548d6656
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'TokenAuth\\' => 10,
+        ),
+        'S' => 
+        array (
+            'Structural\\' => 11,
+        ),
         'P' => 
         array (
             'Prophecy\\' => 9,
@@ -31,6 +39,10 @@ class ComposerStaticInit6eb2181b93c3147ca712c6ce548d6656
         'C' => 
         array (
             'Creational\\' => 11,
+        ),
+        'B' => 
+        array (
+            'BasicAuthLib\\' => 13,
         ),
         'A' => 
         array (
@@ -49,6 +61,14 @@ class ComposerStaticInit6eb2181b93c3147ca712c6ce548d6656
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'TokenAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/administrator/token-auth-lib/TokenAuth',
+        ),
+        'Structural\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Structural',
+        ),
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
@@ -64,6 +84,10 @@ class ComposerStaticInit6eb2181b93c3147ca712c6ce548d6656
         'Creational\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Creational',
+        ),
+        'BasicAuthLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/administrator/basic-auth-lib/BasicAuthLib',
         ),
         'Administrator\\DesignPatterns\\' => 
         array (
