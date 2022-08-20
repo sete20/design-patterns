@@ -1,0 +1,17 @@
+{
+    "name": "administrator/basic-auth-lib",
+    "description": "test lib for adapter",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "BasicAuthLib\\":"BasicAuthLib"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdelrhman Abdullah Elmahdy",
+            "email": "abdelrhman@josequal.com"
+        }
+    ],
+    "require": {}
+}

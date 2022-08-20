@@ -1,0 +1,17 @@
+{
+    "name": "administrator/token-auth-lib",
+    "description": "test lib for adapter",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+        "TokenAuth\\":"TokenAuth"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdelrhman Abdullah Elmahdy",
+            "email": "abdelrhman@josequal.com"
+        }
+    ],
+    "require": {}
+}
