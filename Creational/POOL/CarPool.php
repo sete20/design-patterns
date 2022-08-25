@@ -28,7 +28,7 @@ class CarPool
 
     }
 
-    public  function  freeCar( Car $car)
+    public  function  freeCar(Car $car)
     {
         $carId = spl_object_hash($car);
 
