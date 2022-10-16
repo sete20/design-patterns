@@ -14,6 +14,7 @@ return array(
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Creational\\' => array($baseDir . '/Creational'),
+    'Behavioral\\' => array($baseDir . '/Behavioral'),
     'BasicAuthLib\\' => array($vendorDir . '/administrator/basic-auth-lib/BasicAuthLib'),
     'Administrator\\DesignPatterns\\' => array($baseDir . '/src'),
 );

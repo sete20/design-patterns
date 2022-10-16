@@ -42,6 +42,7 @@ class ComposerStaticInit6eb2181b93c3147ca712c6ce548d6656
         ),
         'B' => 
         array (
+            'Behavioral\\' => 11,
             'BasicAuthLib\\' => 13,
         ),
         'A' => 
@@ -84,6 +85,10 @@ class ComposerStaticInit6eb2181b93c3147ca712c6ce548d6656
         'Creational\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Creational',
+        ),
+        'Behavioral\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Behavioral',
         ),
         'BasicAuthLib\\' => 
         array (

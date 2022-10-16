@@ -5,7 +5,9 @@
         "psr-4": {
             "Administrator\\DesignPatterns\\": "src/",
             "Creational\\":"Creational",
-            "Structural\\":"Structural"
+            "Structural\\":"Structural",
+            "Behavioral\\":"Behavioral"
+
 
 
         }
